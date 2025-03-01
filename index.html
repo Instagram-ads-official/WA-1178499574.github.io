@@ -16,21 +16,18 @@
         s.parentNode.insertBefore(t,s)}(window, document,'script',
         'https://connect.facebook.net/en_US/fbevents.js');
 
-        fbq('init', '649311617610578'); // ID del Pixel
+        fbq('init', '9473507609359104'); // ID del Pixel actualizado
         fbq('track', 'ViewContent'); // Evento cuando alguien entra a la página
     </script>
     <noscript>
         <img height="1" width="1" style="display:none"
-        src="https://www.facebook.com/tr?id=612226704779507&ev=ViewContent&noscript=1"/>
+        src="https://www.facebook.com/tr?id=9473507609359104&ev=ViewContent&noscript=1"/>
     </noscript>
 
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const whatsappURL = "https://wa.me/5491178499574?text=Hola,%20quisiera%20un%20usuario.%20¿En%20qué%20consiste%20el%20bono%20de%20bienvenida?";
-
-            // Registrar evento de Lead antes de redirigir
-            fbq('track', 'Lead');
-
+            
             // Redirigir inmediatamente a WhatsApp
             window.location.href = whatsappURL;
         });
@@ -40,4 +37,3 @@
 <body>
 </body>
 </html>
-
